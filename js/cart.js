@@ -176,6 +176,7 @@ function removeProduct(name) {
     updateCartProduct(name);
     userAccount[index].cartList = newArray;
     localStorage.setItem('userAccount', JSON.stringify(userAccount));
+    location.reload();
 }
 
 //xử lý cart quantity ở trang product
