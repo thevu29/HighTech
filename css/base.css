@@ -93,11 +93,11 @@ html::-webkit-scrollbar-thumb,
 }
 
 .toast-message.fail {
-    border-color: #ee3158;
+    border-color: #ff623d;
 }
 
 .toast-message.fail .toast__icon {
-    color: #ee3158;
+    color: #ff623d;
 }
 
 .toast__body {

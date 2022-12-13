@@ -123,7 +123,7 @@ function showToast(type, title, message) {
 
         setTimeout(function() {
             toast.style.display = 'none';
-        }, 3000);
+        }, 2000);
     }
 }
 
