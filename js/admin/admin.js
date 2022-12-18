@@ -55,3 +55,11 @@ function cacelDelete() {
     productControlModal.style.display = 'none';
     userControlModal.style.display = 'none';
 }
+
+// Side bar
+var switchBtn = document.querySelector('.side-bar-switch');
+var sideBar = document.querySelector('.side-bar');
+
+switchBtn.addEventListener('click', function() {
+    sideBar.classList.toggle('side-bar--close');
+});
