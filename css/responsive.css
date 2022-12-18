@@ -331,11 +331,11 @@
 
 /* Admin page */
 @media (max-width: 1240px) {
-    #admin-main {
+    /* #admin-main {
         display: none;
     }
 
     .not-support {
         display: flex;
-    }
+    } */
 }
