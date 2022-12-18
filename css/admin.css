@@ -99,69 +99,19 @@ select {
     display: block;
 }
 
-.side-bar__user {
+.side-bar-list {
+    height: calc(100% - 100px);
     display: flex;
-    align-items: center;
-    padding: 0 16px;
-    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 24px;
 }
 
-.side-bar__user-icon {
-    cursor: pointer;
-    position: relative;
-}
-
-.side-bar__user-logout {
-    align-items: center;
-    position: absolute;
-    right: -55px;
-    min-width: 140px;
-    padding: 8px 6px;
-    background-color: #fff;
-    border: 1px solid #dbdbdb;
-    border-radius: 3px;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    display: none;
-}
-
-.side-bar__user-logout.active {
-    display: flex;
-}
-
-.side-bar__user-logout:hover {
-    background-color: #fafafa;
-}
-
-.side-bar__user-logout span {
-    font-size: 16px;
-    margin-right: 8px;
-}
-
-.side-bar__user-logout p {
-    font-size: 14px;
-}
-
-.side-bar__user-img {
-    width: 80px;
-}
-
-.side-bar__user span {
-    font-size: 18px;
-    margin: 0 12px;
-    user-select: none;
-}
-
-.side-bar__user i {
-    font-size: 18px;
-}
-
-.side-bar__list,
+.side-bar__top,
 .side-bar__bottom {
     list-style-type: none;
     color: #000;
     padding: 0 14px;
-    margin-top: 24px;
 }
 
 .side-bar__item {
@@ -195,13 +145,6 @@ select {
 
 .side-bar.side-bar--close .side-bar__item-text {
     opacity: 0;
-}
-
-.side-bar__bottom {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
 }
 
 /* Content */

@@ -21,25 +21,11 @@ function backHomePage() {
 }
 
 // Logout
-var showLogOut = document.querySelector('.side-bar__user-icon');
-
-showLogOut.addEventListener('click', function(event) {
-    event.stopPropagation();
-    document.querySelector('.side-bar__user-logout').classList.toggle('active');
-});
-
 function LogOut() {
     localStorage.setItem('isLogIn', 0);
     localStorage.setItem('userAccountIndex', '');
     window.location.href = 'index.html';
 }
-
-// Đóng logout khi click ra ngoài
-var main = document.getElementById('admin-main');
-main.addEventListener('click', function(event) {
-    event.stopPropagation();
-    document.querySelector('.side-bar__user-logout').classList.remove('active');
-})
 
 // Tránh đóng modal khi thao tác trên modal-body
 var modalBodies = document.querySelectorAll('.modal-body');
