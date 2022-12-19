@@ -161,7 +161,7 @@ select {
 
 .side-bar.side-bar--close ~ .admin__content {
     margin-left: var(--sidebar-close-width);
-    padding: 0 70px;
+    padding: 0 50px;
 }
 
 .admin__content-header {
