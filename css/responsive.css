@@ -278,7 +278,7 @@
 }
 
 /* low resolution PC */
-@media (min-width: 1024px) and (max-width: 1300px) {
+@media (min-width: 1024px) and (max-width: 1400px) {
     .header__group-menu {
         top: calc(100% + 8px);
         left: unset;

@@ -163,6 +163,7 @@ function showChart(category) {
     if (orderList.length == 0) {
         var emptyNoti = document.createElement('h3');
         emptyNoti.innerHTML = 'Biểu đồ trống vì chưa có dữ liệu';
+        emptyNoti.style.textAlign = 'center';
         emptyNoti.style.fontSize = '32px';
         emptyNoti.style.marginTop = '32px';
         document.querySelector('.admin__statis-chart').appendChild(emptyNoti);
