@@ -8,6 +8,10 @@
         display: none;
     }
 
+    .header__user-group {
+        display: none;
+    }
+
     .mobile__list .header__navbar-list {
         display: block;
         background-color: #333;
@@ -43,10 +47,6 @@
         width: 420px;
     }
 
-    .header__user-group {
-        margin-right: 24px;
-    }
-
     .header__admin, 
     .header__user {
         margin-right: -24px;
@@ -76,10 +76,6 @@
     }
 
     .header__cart {
-        display: none;
-    }
-
-    .header__user-group {
         display: none;
     }
 
