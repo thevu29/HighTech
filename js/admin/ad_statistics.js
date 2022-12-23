@@ -165,7 +165,7 @@ function showChart(category) {
         emptyNoti.innerHTML = 'Biểu đồ trống vì chưa có dữ liệu';
         emptyNoti.style.textAlign = 'center';
         emptyNoti.style.fontSize = '32px';
-        emptyNoti.style.marginTop = '32px';
+        emptyNoti.style.margin = '32px auto';
         document.querySelector('.admin__statis-chart').appendChild(emptyNoti);
     } else {
         var orderPercent, productPercent, totalPercent;
