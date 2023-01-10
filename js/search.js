@@ -13,7 +13,7 @@ function getNewLabel() {
 }
 
 search.addEventListener('keyup', function(event) {
-    if (event.keyCode == 13) {
+    if (event.keyCode == 13 && search.value.length > 0) {
         localStorage.setItem('search', search.value);
         products.forEach(function(product) {
             if (product.name.toLowerCase().replaceAll(' ', '').includes(search.value.toLowerCase().replaceAll(' ', ''))) {
